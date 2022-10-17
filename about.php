@@ -142,7 +142,7 @@ include("head.php");
 
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/acercade.jpg')">
 		<h2 class="ltext-105 cl0 txt-center">
 			Acerca de
 		</h2>
@@ -272,7 +272,7 @@ include("head.php");
 
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shipping
+								Envíos
 							</a>
 						</li>
 
