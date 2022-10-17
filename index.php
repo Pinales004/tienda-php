@@ -101,7 +101,7 @@ include("head.php");
 				</li>
 
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.html">Acerca de</a>
 				</li>
 
 				<li>
