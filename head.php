@@ -8,17 +8,17 @@
 					
 					<!-- Logo desktop -->		
 					<a href="#" class="logo">
-						<img src="images/icons/logo-01.png" alt="IMG-LOGO">
+						<img src="images/icons/royalelixir.png" alt="IMG-LOGO">
 					</a>
 
 					<!-- Menu desktop -->
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="index.php">Home</a>
+								<a href="index.php">Inicio</a>
 
 							<li>
-								<a href="product.php">Shop</a>
+								<a href="product.php">Tienda</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
@@ -30,11 +30,11 @@
 							</li>
 
 							<li>
-								<a href="about.php">About</a>
+								<a href="about.php">Acerca de</a>
 							</li>
 
 							<li>
-								<a href="contact.php">Contact</a>
+								<a href="contact.php">Contacto</a>
 							</li>
 						</ul>
 					</div>	
