@@ -346,7 +346,7 @@
 								<tr class="table_row">
 									<td class="column-1">
 										<div class="how-itemcart1">
-											<img src="images/item-cart-05.jpg" alt="IMG">
+											<img src="images/Bvlgari Man In Black Bvlgari375x500.webp" alt="IMG">
 										</div>
 									</td>
 									<td class="column-2">Lightweight Jacket</td>

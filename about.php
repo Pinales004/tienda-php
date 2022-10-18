@@ -146,7 +146,7 @@ include("head.php");
 		<h2 class="ltext-105 cl0 txt-center">
 			Acerca de
 		</h2>
-	</section>	
+	</section>
 
 	<!-- Content page -->
 	<section class="bg0 p-t-75 p-b-120">
@@ -286,7 +286,7 @@ include("head.php");
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
-						CONTÁCTANOS
+						CONTÁCTANOS!
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
