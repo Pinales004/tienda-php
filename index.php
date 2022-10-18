@@ -223,7 +223,7 @@ include("head.php");
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
-									Women Collection 2018
+									Women Collection 2022
 								</span>
 							</div>
 								
@@ -271,7 +271,7 @@ include("head.php");
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
 								<span class="ltext-101 cl2 respon2">
-									Men Collection 2018
+									Men Collection 2022
 								</span>
 							</div>
 								
@@ -310,7 +310,7 @@ include("head.php");
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
-									Primavera 2018
+									Primavera 2022
 								</span>
 							</div>
 
@@ -335,7 +335,7 @@ include("head.php");
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
-									Primavera 2018
+									Primavera 2022
 								</span>
 							</div>
 
