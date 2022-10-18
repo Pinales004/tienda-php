@@ -146,7 +146,7 @@ include("head.php");
 		<h2 class="ltext-105 cl0 txt-center">
 			About
 		</h2>
-	</section>	
+	</section>
 
 
 	<!-- Content page -->
@@ -288,7 +288,11 @@ include("head.php");
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
+<<<<<<< Updated upstream
 						GET IN TOUCH
+=======
+						CONTÁCTANOS!
+>>>>>>> Stashed changes
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
