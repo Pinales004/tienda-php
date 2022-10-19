@@ -375,7 +375,7 @@ include("head.php");
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-					¿Alguna duda o pregunta? Déjenos saber contactándonos a través del siguiente correo: <i>royalelixir@gmail.com</i> 
+					¿ Alguna duda o pregunta? Déjenos saber contactándonos a través del siguiente correo: <i>royalelixir@gmail.com</i> 
 					</p>
 
 					<div class="p-t-27">
