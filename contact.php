@@ -370,12 +370,12 @@ include("head.php");
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						GET IN TOUCH
+				<h4 class="stext-301 cl0 p-b-30">
+						CONTÁCTANOS!
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-						Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+					¿Alguna duda o pregunta? Déjenos saber contactándonos a través del siguiente correo: <i>royalelixir@gmail.com</i> 
 					</p>
 
 					<div class="p-t-27">
