@@ -382,7 +382,7 @@ include("head.php");
 		<div class="container">
 			<div class="p-b-10">
 				<h3 class="ltext-103 cl5">
-					Vistazo al producto klk
+					Vistazo al producto
 				</h3>
 			</div>
 
