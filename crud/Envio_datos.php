@@ -15,7 +15,7 @@ $resultado=$conn->query($query);
 
 if($resultado){
                 
-                //echo"el formulario fue enviado";
+                //echo"perfume modificado";
                 header("Location: indexcrud.php");
 
               

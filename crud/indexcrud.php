@@ -25,32 +25,32 @@
                                     <div class="form-group">
                                         <label class="form-group">Selecciona una imagen</label>
                                         </br>
-                                        <input  id="my-input" class="form-control" type="file" name="imagen"/>
+                                        <input  id="my-input" class="form-control" type="file" name="imagen" required =""/>
                                     </div>
                                 </td>
                                 <td>
                                     <label >Nombre del perfume</label> </br>
                                     </b>
-                                    <input type="text" name="nombre" placeholder="Nombre...." value=""/ id="my-input" class="form-control">
+                                    <input type="text" name="nombre" placeholder="Nombre...." value=""/ id="my-input" class="form-control" required =""/>
                                 </td>
                                 <td>
                                     <label >Descripcion</label> 
                                     </br>
-                                    <input type="text" name="descripcion" placeholder="Aroma invierno.." placeholder="aroma primavera.." / id="my-input" class="form-control">
+                                    <input type="text" name="descripcion" placeholder="Aroma invierno.."  id="my-input" class="form-control" required =""/>
                                 </td>
                                 <td>
                                     <label class="form-group" >Precio</label> 
                                     </br>
-                                    <input type="number"   step="0.1" placeholder="2500" name="precio"/ id="my-input" class="form-control">
+                                    <input type="number"   step="0.1" placeholder="2500" name="precio"/ id="my-input" class="form-control" required ="">
                                 </td>
                                 <td>    
                                     <label class="form-group">idsex</label> 
                                     </br>
-                                    <input  type="number" placeholder="1/2"  name="idsex"/ id="my-input" class="form-control"> 
+                                    <input  type="number" placeholder="1/2"  max="2" min="1" name="idsex"/ id="my-input" class="form-control" required =""> 
                                 </td>   
                                 <td >
                                     </br>
-                                    <input type="submit" value="Aceptar"/ id="my-input" class="form-control">
+                                    <input type="submit" value="Enviar" id="my-input" class="form-control">
                                 </td>
                             </tr >  
                         </table>
@@ -92,9 +92,10 @@
                             <td><?php echo $row['Descripcion']; ?> </br></td>
                             <td><?php echo $row['Precio']; ?>     $</br></td>
                             <td><?php echo $row['idCategoria']; ?> </br></td>
-                            <td>Aqui va</br> 
-                            editar</br>
-                            eliminar</br></td>
+                            <td>
+                                <a href="modificar.php?id=<?php echo $row['id']; ?>"> editar </a></br>
+                                eliminar
+                             </td>
                         </tr>
                     <?php
                          }
