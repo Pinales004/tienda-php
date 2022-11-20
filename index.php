@@ -623,10 +623,8 @@ include("head.php");
 
 
 						
- 				<table style="width: 125%">
- 						<tr>
-
-
+ 				<table style="width: 105%"  >
+ 						
 						<?php
 						$columna=0;
 						$fila=0;
@@ -634,17 +632,20 @@ include("head.php");
                         $query = "SELECT * FROM perfumes";
                         $resultado = $conn->query($query);
                         while($row = $resultado->fetch_assoc()){
+                        	if($fila==0) echo '<tr>';
+
+
                         echo '<td>';
                    		 ?>
 
 			<div class="row isotope-grid">
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+				<div class="col-sm-6 col-md-11 col-lg-11 p-b-35 isotope-item women">
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img   height="200px"  src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"  alt="IMG-PRODUCT"/>
+							<img   height="360px"   src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"  alt="IMG-PRODUCT"/>
 							
-							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">alt="IMG-PRODUCT"
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Vistazo rápido
 							</a>
 						</div>
@@ -678,6 +679,7 @@ include("head.php");
 			if($fila==4){
 				
 				echo '</tr>';
+				
 				 
 				$fila=0;
 				$columna=$columna+1;
