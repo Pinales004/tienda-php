@@ -18,18 +18,6 @@
 								<a href="index.php">Home</a>
 
 							<li>
-								<a href="product.php">Shop</a>
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.php">Features</a>
-							</li>
-
-							<li>
-								<a href="contact.php">Contact</a>
-							</li>
-
-							<li>
 								<a href="./crud/indexcrud.php">Crud insertar perfumes</a>
 							</li>
 						</ul>
@@ -44,16 +32,7 @@
 						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
 							<i class="zmdi zmdi-shopping-cart"></i>
 						</div>
-                     
-                        <ul class="main-menu">
-							<li>
-                            <i class="zmdi zmdi-account-o"></i>
-								<ul class="sub-menu">
-									<li><a href="ModalLogin.php">Login</a></li>
-									<li><a href="#">Tarjetas</a></li>
-									<li><a href="#">Salir</a></li>
-								</ul>
-							</li>
+
 
 						
 						</a>
