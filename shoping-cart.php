@@ -236,14 +236,30 @@ include("head.php");
 									<th class="column-5">Total</th>
 								</tr>
 
+
+
+<?php
+
+
+//$sexo=$_POST['sexo'];
+
+include("conexion/db.php");
+$query = "SELECT * FROM perfumes  ";
+$resultado = $conn->query($query);
+while($row = $resultado->fetch_assoc())
+{
+
+?>
+
+
 								<tr class="table_row">
 									<td class="column-1">
 										<div class="how-itemcart1">
-											<img src="images/item-cart-04.jpg" alt="IMG">
+											<img   height="100px"   src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>"  alt="IMG-PRODUCT"/>
 										</div>
 									</td>
-									<td class="column-2">Fresh Strawberries</td>
-									<td class="column-3">$ 36.00</td>
+									<td class="column-2"><?php echo $row['nombrePerfume']; ?></td>
+									<td class="column-3">$<?php echo $row['Precio']; ?></td>
 									<td class="column-4">
 										<div class="wrap-num-product flex-w m-l-auto m-r-0">
 											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
@@ -259,6 +275,10 @@ include("head.php");
 									</td>
 									<td class="column-5">$ 36.00</td>
 								</tr>
+
+ <?php  
+} ?>
+
 
 								<tr class="table_row">
 									<td class="column-1">
